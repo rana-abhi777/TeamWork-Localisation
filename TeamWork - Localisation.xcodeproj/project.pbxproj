@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC1B5471E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B5451E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodeld */; };
+		1DC1B5491E7FAF390004FC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B5481E7FAF390004FC1D /* Assets.xcassets */; };
+		1DC1B5601E7FB00F0004FC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B5541E7FB00F0004FC1D /* AppDelegate.swift */; };
+		1DC1B5611E7FB00F0004FC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B5591E7FB00F0004FC1D /* ViewController.swift */; };
+		1DC1B5621E7FB00F0004FC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B55C1E7FB00F0004FC1D /* LaunchScreen.storyboard */; };
+		1DC1B5631E7FB00F0004FC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B55D1E7FB00F0004FC1D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DC1B53B1E7FAF390004FC1D /* TeamWork - Localisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeamWork - Localisation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC1B5461E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TeamWork___Localisation.xcdatamodel"; sourceTree = "<group>"; };
+		1DC1B5481E7FAF390004FC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC1B54D1E7FAF390004FC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC1B5541E7FB00F0004FC1D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DC1B5591E7FB00F0004FC1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DC1B55C1E7FB00F0004FC1D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DC1B55D1E7FB00F0004FC1D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC1B5381E7FAF390004FC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC1B5321E7FAF390004FC1D = {
+			isa = PBXGroup;
+			children = (
+				1DC1B53D1E7FAF390004FC1D /* TeamWork - Localisation */,
+				1DC1B53C1E7FAF390004FC1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC1B53C1E7FAF390004FC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B53B1E7FAF390004FC1D /* TeamWork - Localisation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC1B53D1E7FAF390004FC1D /* TeamWork - Localisation */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B5531E7FB00F0004FC1D /* AppDelegate */,
+				1DC1B5571E7FB00F0004FC1D /* MVC */,
+				1DC1B5551E7FB00F0004FC1D /* CommonFunctions */,
+				1DC1B5561E7FB00F0004FC1D /* Enums */,
+				1DC1B55E1E7FB00F0004FC1D /* Validation */,
+				1DC1B55F1E7FB00F0004FC1D /* XIBs */,
+				1DC1B5481E7FAF390004FC1D /* Assets.xcassets */,
+				1DC1B54D1E7FAF390004FC1D /* Info.plist */,
+				1DC1B5451E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodeld */,
+			);
+			path = "TeamWork - Localisation";
+			sourceTree = "<group>";
+		};
+		1DC1B5531E7FB00F0004FC1D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B5541E7FB00F0004FC1D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1DC1B5551E7FB00F0004FC1D /* CommonFunctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonFunctions;
+			sourceTree = "<group>";
+		};
+		1DC1B5561E7FB00F0004FC1D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1DC1B5571E7FB00F0004FC1D /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B5581E7FB00F0004FC1D /* Controllers */,
+				1DC1B55A1E7FB00F0004FC1D /* Modals */,
+				1DC1B55B1E7FB00F0004FC1D /* Views */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1DC1B5581E7FB00F0004FC1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B5591E7FB00F0004FC1D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1DC1B55A1E7FB00F0004FC1D /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		1DC1B55B1E7FB00F0004FC1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B55C1E7FB00F0004FC1D /* LaunchScreen.storyboard */,
+				1DC1B55D1E7FB00F0004FC1D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DC1B55E1E7FB00F0004FC1D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		1DC1B55F1E7FB00F0004FC1D /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC1B53A1E7FAF390004FC1D /* TeamWork - Localisation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC1B5501E7FAF390004FC1D /* Build configuration list for PBXNativeTarget "TeamWork - Localisation" */;
+			buildPhases = (
+				1DC1B5371E7FAF390004FC1D /* Sources */,
+				1DC1B5381E7FAF390004FC1D /* Frameworks */,
+				1DC1B5391E7FAF390004FC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamWork - Localisation";
+			productName = "TeamWork - Localisation";
+			productReference = 1DC1B53B1E7FAF390004FC1D /* TeamWork - Localisation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC1B5331E7FAF390004FC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "code-brew";
+				TargetAttributes = {
+					1DC1B53A1E7FAF390004FC1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DC1B5361E7FAF390004FC1D /* Build configuration list for PBXProject "TeamWork - Localisation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC1B5321E7FAF390004FC1D;
+			productRefGroup = 1DC1B53C1E7FAF390004FC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC1B53A1E7FAF390004FC1D /* TeamWork - Localisation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC1B5391E7FAF390004FC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1B5631E7FB00F0004FC1D /* Main.storyboard in Resources */,
+				1DC1B5491E7FAF390004FC1D /* Assets.xcassets in Resources */,
+				1DC1B5621E7FB00F0004FC1D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC1B5371E7FAF390004FC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1B5611E7FB00F0004FC1D /* ViewController.swift in Sources */,
+				1DC1B5601E7FB00F0004FC1D /* AppDelegate.swift in Sources */,
+				1DC1B5471E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DC1B54E1E7FAF390004FC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC1B54F1E7FAF390004FC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DC1B5511E7FAF390004FC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TeamWork - Localisation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.TeamWork---Localisation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1DC1B5521E7FAF390004FC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TeamWork - Localisation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.TeamWork---Localisation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC1B5361E7FAF390004FC1D /* Build configuration list for PBXProject "TeamWork - Localisation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC1B54E1E7FAF390004FC1D /* Debug */,
+				1DC1B54F1E7FAF390004FC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC1B5501E7FAF390004FC1D /* Build configuration list for PBXNativeTarget "TeamWork - Localisation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC1B5511E7FAF390004FC1D /* Debug */,
+				1DC1B5521E7FAF390004FC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DC1B5451E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DC1B5461E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodel */,
+			);
+			currentVersion = 1DC1B5461E7FAF390004FC1D /* TeamWork___Localisation.xcdatamodel */;
+			path = "TeamWork___Localisation.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DC1B5331E7FAF390004FC1D /* Project object */;
+}
